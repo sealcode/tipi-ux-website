@@ -1,6 +1,6 @@
 # tipi-ux-website
 This is a repository where I push files which create Tipi UX website.
-The link with the repository is: [https://github.com/sealcode/tipi-ux-website].
+The link with the repository is: https://github.com/sealcode/tipi-ux-website.
 Used technologies: Jekyll, HTML.
 
 Useful commands:
