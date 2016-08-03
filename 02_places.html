@@ -1,0 +1,16 @@
+---
+layout: page
+title: Ośrodki Tipi UX
+permalink: /places/
+---
+
+<div class="city-choice">
+	Wybierz miasto z listy:
+	<ul>
+		{% for my_page in site.cities %}
+			{% if my_page.title && !my_page.hide_from_nav %}
+				<li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+			{% endif %}
+		{% endfor %}
+			</ul>
+</div>

@@ -1,8 +1,0 @@
---- 13.07.2016r. ---
-Mój plan na stronê Tipi UX jest nastêpuj¹cy:
-1. Na samej górze w lewym rogu bêdzie logo Tipi UX, które po klikniêciu przekierowuje na stronê g³ówn¹.
-   Obok loga Tipi UX bêdzie jakieœ t³o lub coœ innego, ¿eby nie by³o pustki.
-2. Ni¿ej na œrodku bêd¹ kafelki z linkami, niektóre z nich bêd¹ mia³y rozwijane menu z linkami do podstron.
-3. Ni¿ej treœæ danej strony (równie¿ wyœrodkowana - równo z blokiem kafelków).
-4. Na dole stopka - loga partnerów oraz linki do serwisów spo³ecznoœciowych - tak samo wyœrodkowana jak treœæ.
-   Loga partnerów z lewej strony a linki do serwisów spo³ecznoœciowych z prawej.

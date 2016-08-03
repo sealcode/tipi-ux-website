@@ -1,50 +1,15 @@
 <header class="site-header">
-  <div class="wrapper">
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    <nav class="site-nav">
-	  <div class="main-menu">
-		<div class="container">
-			<ul class="menu-depth-0">
-				<li class="has-children">
-					<a class="page-link" href="/about/">O nas</a>
-				</li>
-				<li class="has-children">
-					<a class="page-link" href="/places/">Ośrodki Tipi UX</a>
-					<ul class="menu-depth-1">
-						<li class="has-children-d1">
-							<a class="page-link" href="/places/places-of-meetings/">Miejsca spokań</a>
-						</li>
-						<li class="has-children-d1">
-							<a class="page-link" href="/places/coordinators/">Koordynatorzy</a>
-						</li>
-						<li class="has-children-d1">
-							<a class="page-link" href="http://aulapolska.pl/" target="blank">Mapa</a>
-						</li>
-					</ul>
-				</li>
-				<li class="has-children">
-					<a class="page-link" href="/meet-ups/">Meet Up's</a>
-					<ul class="menu-depth-1">
-						<li class="has-children-d1">
-							<a class="page-link" href="/meet-ups/nearest/">Najbliższe spotkania</a>
-						</li>
-						<li class="has-children-d1">
-							<a class="page-link" href="/meet-ups/archives/">Archiwum</a>
-						</li>
-					</ul>
-				</li>
-				<li class="has-children">
-					<a class="page-link" href="/be-speaker/">Zostań prelegentem</a>
-				</li>
-				<li class="has-children">
-					<a class="page-link" href="/blog/">Blog</a>
-				</li>
-				<li class="has-children">
-					<a class="page-link" href="/contact/">Kontakt</a>
-				</li>
+	<div class="wrapper">
+		<span class="title">Tipi UX</span>
+		<nav class="main-nav light">
+			<ul>
+				<li><a href="/">Strona główna</a>
+				{% for my_page in site.pages %}
+				  {% if my_page.title && !my_page.hide_from_nav %}
+					<li><a  href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+				  {% endif %}
+				{% endfor %}
 			</ul>
-		</div>
-	  </div>
-    </nav>
-  </div>
+		</nav>
+	</div>
 </header>

@@ -1,0 +1,25 @@
+---
+layout: page
+permalink: /meet-ups/archives/
+---
+<div class="home">
+	<h1 class="page-heading">Archiwum</h1>
+	<ul class="cities">
+		{% for city in site.cities %}
+		<li class="city">
+			<h3 class="city-header">Wydarzenia dla miasta: {{ city.title }}</h3>
+			<ul class="meetups">
+			{% for meetup in site.meet_ups %}
+				{% if meetup.city == city.ident %}
+					{% if meetup.archived == true %}
+						<li class="meetup">
+							<a href={{meetup.permalink}}>{{meetup.title}}</a>
+						</li>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+			</ul>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
