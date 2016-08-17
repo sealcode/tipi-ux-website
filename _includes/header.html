@@ -1,9 +1,8 @@
 <header class="site-header">
 	<div class="wrapper">
-		<span class="title">Tipi UX</span>
-		<nav class="main-nav light">
+		<nav class="main-nav">
 			<ul>
-				<li><a href="/">Strona główna</a>
+				<li><a href="/">Tipi UX</a>
 				{% for my_page in site.pages %}
 				  {% if my_page.title && !my_page.hide_from_nav %}
 					<li><a  href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>

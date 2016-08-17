@@ -1,0 +1,12 @@
+body {
+	font-family: Lato;
+}
+
+.main-nav {
+	font-family: metafors;
+}
+
+.post-title, .page-heading {
+	font-family: metafors;
+	font-size: 1.25rem;
+}
