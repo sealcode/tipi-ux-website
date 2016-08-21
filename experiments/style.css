@@ -44,6 +44,12 @@ button {
 	padding: 0rem 0.333333rem;
 }
 
+.shadows {
+	webkit-box-shadow: 8px 9px 10px -5px rgba(186,186,186,1);
+	moz-box-shadow: 8px 9px 10px -5px rgba(186,186,186,1);
+	box-shadow: 8px 9px 10px -5px rgba(186,186,186,1);
+}
+
 .agenda:hover {
 	font-size: 0.5rem;
 	background-color: #333741;
@@ -120,6 +126,31 @@ button {
 	background-color: #ffc700; /* to tylko przykład */
 }
 
+.icons {
+	color: #aeafb3;
+	font-size: 1rem;
+}
+
+.icons-bg {
+	cursor: pointer;
+	color: #aeafb3;
+	font-size: 1rem;
+	background-color: #4e5462;
+	max-width: 1.25rem;
+	height: 1.25rem;
+}
+
+.icons-bg:hover {
+	color: #fff;
+	font-size: 1rem;
+	transition: 300ms;
+}
+
+
+
+
+
+
 
 
 
@@ -130,5 +161,5 @@ button {
 body {
 	background: pink;
 	font-family: Lato;
-	font-family: 0.5rem;
+	font-size: 0.5rem;
 }
