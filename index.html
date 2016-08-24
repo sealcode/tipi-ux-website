@@ -1,17 +1,19 @@
 ---
-layout: page
+layout: default
 ---
 <div class="home">
-  <h1 class="page-heading">Aktualności:</h1>
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-  <p class="rss-subscribe">Subskrybuj przez <a href="{{ "/feed.xml" | prepend: site.baseurl }}">kanał RSS</a></p>
+	<div class="section-one">
+		<h1 class="title-of-section title-one" >Wielki Wodzu UX witamy w Tipi UX!</h1>
+		<h2 class="description">Regularne spotkania o tematyce User Experience ale i nie tylko.</h2>
+		<button class="city-search">Znajdź swoje miasto</button>
+	</div>
+	<div class="section-two">
+		<h1 class="title-of-section title-two" >O co chodzi z tym Tipi?</h1>
+		<a class="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget semper ipsum. Sed a quam nec diam suscipit scelerisque. Nulla facilisi. Etiam interdum euismod risus tincidunt maximus. Maecenas molestie orci non turpis volutpat pulvinar nec faucibus ex.</a>
+		<div class="img-block">
+			<img src='/pictures/circle3.png/' class="img-circle">
+			<br>
+			<a class="img-content">Spotkania tworzone z ludźmi z pasją</a>
+		</div>
+	</div>
 </div>

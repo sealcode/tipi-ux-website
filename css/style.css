@@ -1,12 +1,128 @@
 body {
 	font-family: Lato;
+	padding: 0rem;
 }
 
 .main-nav {
 	font-family: metafors;
+	background-color: #333741;
 }
 
 .post-title, .page-heading {
 	font-family: metafors;
 	font-size: 1.25rem;
+}
+
+.menu-nav {
+	list-style-type: none;
+	max-width: 40rem;
+	height: 3rem;
+	margin: 0 auto;
+}
+
+.menu-nav-element, .logo-index {
+	float: left;
+	margin: 1rem 0.5rem;
+}
+
+.logo-index {
+	margin: 1rem 5rem 0rem 1rem;
+}
+
+.nav-link {
+	font-size: 0.666667rem;
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav-link:hover {
+	color: #aeafb3;
+}
+
+a, a:hover, a:link, a:visited {
+	text-decoration: none;
+}
+
+.title-of-section {
+	font-family: metafors;
+	font-size: 1.25rem;
+	font-weight: normal;
+	margin-top: 0rem;
+	text-align: center;
+}
+
+.section-one {
+	color: #fff;
+	background-image: url('/pictures/background.png/');
+	height: 20rem;
+	background-size: contain;
+	margin: 0 auto;
+}
+
+.section-two {
+	background-color: #fff;
+	height: 20rem;
+	margin: 0 auto;
+}
+
+.title-one {
+	padding: 6rem 2rem 0rem 2rem;
+}
+
+.title-two {
+	padding: 3rem 2rem 0rem 2rem;
+}
+
+.description {
+	font-family: Lato;
+	font-size: 0.583333rem;
+	font-weight: normal;
+	margin: 0rem;
+	padding-bottom: 1rem;
+	text-align: center;
+}
+
+button {
+	border-radius: 1rem;
+	font-size: 0.583333rem;
+	font-family: Lato;
+	color: #fff;
+	border-width: 0.083333rem;
+	transition: 300ms;
+	border-style: none;
+	cursor: pointer;
+}
+
+.city-search {
+	border-color: #fff;
+	border-style: solid;
+	padding: 0rem 1rem 0.166666rem 1rem;
+	background-color: transparent;
+	margin: 0rem 24rem;
+}
+
+.city-search:hover {
+	background-color: #ffc700;
+	color: #000;
+	border-color: #ffc700;
+}
+
+.img-block {
+	width: 12rem;
+}
+
+.img-circle {
+	height: 8rem;
+	width: 8rem;
+	margin: 0 auto;
+}
+
+.img-content {
+	text-align: center;
+}
+
+.shadows {
+	webkit-box-shadow: 8px 9px 10px -5px rgba(186,186,186,1);
+	moz-box-shadow: 8px 9px 10px -5px rgba(186,186,186,1);
+	box-shadow: 8px 9px 10px -5px rgba(186,186,186,1);
 }
