@@ -109,6 +109,7 @@ button {
 
 .img-block {
 	width: 12rem;
+	float: left;
 }
 
 .img-circle {
@@ -119,6 +120,44 @@ button {
 
 .img-content {
 	text-align: center;
+}
+
+.section-content {
+	text-align: center;
+}
+
+.meetings {
+	background-color: #333741;
+	padding: 0rem 1rem 0.166666rem 1rem
+}
+
+.map { /* na razie to jest zwykły kwadrat */
+	background-color: #ffc700;
+	height: 20rem;
+	width: 20rem;
+	float: left;
+}
+
+.map-info {
+	height: 20rem;
+	width: 20rem;
+	float: left;
+}
+
+.city-title {
+	font-size: 0.583333rem;
+	font-family: metafors;
+}
+
+.data, .data-info {
+	font-size: 0.5rem;
+}
+
+.join {
+	font-size: 0.5rem;
+	background-color: #ffc700;
+	color: #000;
+	padding: 0rem 2rem 0.166666rem 2rem;
 }
 
 .shadows {
