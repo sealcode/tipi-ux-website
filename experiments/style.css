@@ -34,6 +34,12 @@ button {
 	padding: 0rem 2rem 0.166666rem 2rem;
 }
 
+.shadows {
+	webkit-box-shadow: 8px 9px 10px -5px rgba(186,186,186,1);
+	moz-box-shadow: 8px 9px 10px -5px rgba(186,186,186,1);
+	box-shadow: 8px 9px 10px -5px rgba(186,186,186,1);
+}
+
 .agenda {
 	font-size: 0.5rem;
 	color: #aeafb3;
@@ -42,12 +48,6 @@ button {
 	border-width: 0.041666rem;
 	border-color: #aeafb3;
 	padding: 0rem 0.333333rem;
-}
-
-.shadows {
-	webkit-box-shadow: 8px 9px 10px -5px rgba(186,186,186,1);
-	moz-box-shadow: 8px 9px 10px -5px rgba(186,186,186,1);
-	box-shadow: 8px 9px 10px -5px rgba(186,186,186,1);
 }
 
 .agenda:hover {
