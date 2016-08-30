@@ -1,0 +1,78 @@
+.footer-contact {
+	background-color: #333741;
+	color: #fff;
+	height: 12rem;
+	max-width: 60rem;
+	min-width: 56rem;
+	padding: 2rem;
+}
+
+.center {
+	max-width: 40rem;
+	margin: 0 auto;
+}
+
+.links {
+	float: left;
+}
+
+.footer-link, .title-contact, .contact-cities {
+	line-height: 1.5rem;
+}
+
+.title-contact {
+	margin-left: 1rem;
+}
+
+.contact {
+	margin-left: 2rem;
+	float: left;
+}
+
+.contact-table {
+	border-left: 0.041666rem solid;
+	padding-left: 1rem;
+}
+
+.contact-table-td-1, .contact-table-td-2 {
+	line-height: 1.5rem;
+	padding: 0rem;
+}
+
+.contact-table-td-1 {
+	width: 1rem;
+}
+
+.mailto {
+	color: #fff;
+}
+
+.social-media-list {
+	color: #aeafb3;
+	font-size: 1rem;
+	float: left;
+	margin-left: 5rem;
+}
+
+.icons-bg {
+	border-radius: 0.083333rem;
+	cursor: pointer;
+	color: #fff;
+	font-size: 1.25rem;
+	background-color: #4e5462;
+	width: 1.75rem;
+	text-align: center;
+	height: 1.75rem;
+	float: left;
+	margin-right: 0.5rem;
+	line-height: 1.5rem;
+	box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
+	webkit-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
+	moz-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
+}
+
+#fb-footer {
+	line-height: 1.25rem;
+	padding-top: 0.25rem;
+	padding-left: 0.25rem;
+}

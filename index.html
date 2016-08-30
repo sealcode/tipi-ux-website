@@ -5,40 +5,122 @@ layout: default
 	<div class="section-one shadows">
 		<h1 class="title-of-section title-one" >Wielki Wodzu UX witamy w Tipi UX!</h1>
 		<h2 class="description">Regularne spotkania o tematyce User Experience ale i nie tylko.</h2>
-		<button class="city-search">Znajdź swoje miasto</button>
+		<a href="/#nearest"><button class="city-search">Najbliższe spotkania</button></a>
+		<div class="icons-one">
+			<a class="icons-soc" id="fb" href="https://www.facebook.com/tipiUX/" target="blank">
+				<i class="fa fa-facebook-official"></i>
+			</a>
+			<a class="icons-soc" id="instag" href="https://www.instagram.com/tipi_ux/" target="blank">
+				<i class="fa fa-instagram"></i>
+			</a>
+			<div style="clear: both;"></div>
+		</div>
 	</div>
-	<div class="section-two shadows">
+	<div class="section-two">
 		<h1 class="title-of-section title-two" >O co chodzi z tym Tipi?</h1>
 		<p class="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget semper ipsum. Sed a quam nec diam suscipit scelerisque. Nulla facilisi. Etiam interdum euismod risus tincidunt maximus. Maecenas molestie orci non turpis volutpat pulvinar nec faucibus ex.</p>
 		<br>
 		<div class="images">
 			<div class="img-block">
-				<img src='/pictures/circle3.png/' class="img-circle">
+				<img src='/pictures/circle3.png/' class="img-circle shadows">
 				<br>
 				<p class="img-content">Spotkania tworzone z ludźmi z pasją</p>
 			</div>
 			<div class="img-block">
-				<img src='/pictures/circle4.png/' class="img-circle">
+				<img src='/pictures/circle4.png/' class="img-circle shadows">
 				<br>
 				<p class="img-content">Spotkania są darmowe</p>
 			</div>
 			<div class="img-block">
-				<img src='/pictures/circle1.png/' class="img-circle">
+				<img src='/pictures/circle1.png/' class="img-circle shadows">
 				<br>
 				<p class="img-content">Prelekcje o tematyce UX</p>
 			</div>
 			<div class="img-block">
-				<img src='/pictures/circle2.png/' class="img-circle">
+				<img src='/pictures/circle2.png/' class="img-circle shadows">
 				<br>
 				<p class="img-content">Poznawanie inspirujących ludzi</p>
 			</div>
 			<div style="clear: both;"></div>
 		</div>
 	</div>
-	<div class="section-three shadows">
-		<h1 class="title-of-section title-three" >Ośrodki Tipi</h1>
-		<div class="map shadows">Mapa</div>
-		<div class="map-info">
+	<div class="section-three">
+		<h1 class="title-of-section title-three">Ośrodki Tipi</h1>
+		<div class="map shadows">
+			<a class="city-link" id="gdynia">
+				<div class="city-link-div"></div>
+				<p>Gdynia</p>
+			</a>
+			<a class="city-link" id="warszawa">
+				<div class="city-link-div"></div>
+				<p>Warszawa</p>
+			</a>
+			<a class="city-link" id="poznan">
+				<div class="city-link-div"></div>
+				<p>Poznań</p>
+			</a>
+		</div>
+		<div class="map-info" id="gdynia-map">
+			<table class="map-info-table">
+				<thead class="header-table">
+					<tr>
+					<th></th>
+						<th class="city-title">Gdynia</th>
+					</tr>
+				</thead>
+				<tbody class="body-table">
+					<tr>
+						<td class="data">Miejsce: </td>
+						<td class="data-info">Wydział Matematyki na UAM</td>
+					</tr>
+					<tr>
+						<td class="data">Adres: </td>
+						<td class="data-info">ul. Umultowska 111/11</td>
+					</tr>
+					<tr>
+						<td class="data">Przystanek: </td>
+						<td class="data-info">Os. Sobieskiego</td>
+					</tr>
+					<tr>
+						<td class="data">Uwagi: </td>
+						<td class="data-info">Wstęp darmowy.<br>Zapisy przez potal Evenea.</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<button class="meetings shadows">Przejdź do spotkań</button>
+		</div>
+		<div class="map-info" id="warszawa-map">
+			<table class="map-info-table">
+				<thead class="header-table">
+					<tr>
+					<th></th>
+						<th class="city-title">Warszawa</th>
+					</tr>
+				</thead>
+				<tbody class="body-table">
+					<tr>
+						<td class="data">Miejsce: </td>
+						<td class="data-info">Wydział Matematyki na UAM</td>
+					</tr>
+					<tr>
+						<td class="data">Adres: </td>
+						<td class="data-info">ul. Umultowska 111/11</td>
+					</tr>
+					<tr>
+						<td class="data">Przystanek: </td>
+						<td class="data-info">Os. Sobieskiego</td>
+					</tr>
+					<tr>
+						<td class="data">Uwagi: </td>
+						<td class="data-info">Wstęp darmowy.<br>Zapisy przez potal Evenea.</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<button class="meetings shadows">Przejdź do spotkań</button>
+		</div>
+		<div class="map-info" id="poznan-map">
 			<table class="map-info-table">
 				<thead class="header-table">
 					<tr>
@@ -70,67 +152,55 @@ layout: default
 		</div>
 		<div style="clear: both;"></div>
 	</div>
-	<div class="section-four shadows">
+	<div class="section-four">
 		<h1 class="title-of-section title-four" >Zorganizuj Tipi w swoim mieście!</h1>
 		<p class="section-content content-four">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget semper ipsum.</p><br>
-		<button class="join">Dołącz do Ekipy Tipi :)</button>
+		<button class="join shadows">Dołącz do Ekipy Tipi :)</button>
 	</div>
-	<div class="section-five shadows">
+	<div class="section-five" id="nearest">
 		<h1 class="title-of-section title-five" >Najbliższe spotkania Tipi UX</h1>
 		<table class="table-meetings">
 			<tbody>
 				<tr>
 					<td class="table-element-meetings">Poznań</td>
-					<td class="table-element-meetings">22.10</td>
-					<td class="table-element-info">(wtorek)</td>
+					<td class="table-element-meetings">22.10<a class="table-element-info">(wtorek)</a></td>
 					<td class="table-element-meetings">18:00-21:00</td>
-					<td class="table-element-meetings">PPNT</td>
-					<td class="table-element-info"> ul. Zwycięstwa 14</td>
+					<td class="table-element-meetings">PPNT<a class="table-element-info">ul. Zwycięstwa 14</a></td>
 					<td class="table-element-meetings"><button class="agenda">Agenda</button></td>
 				</tr>
 				<tr>
 					<td class="table-element-meetings">Warszawa</td>
-					<td class="table-element-meetings">22.10</td>
-					<td class="table-element-info">(wtorek)</td>
+					<td class="table-element-meetings">22.10<a class="table-element-info">(wtorek)</a></td>
 					<td class="table-element-meetings">18:00-21:00</td>
-					<td class="table-element-meetings">WMI UAM</td>
-					<td class="table-element-info"> ul. Zwycięstwa 14</td>
+					<td class="table-element-meetings">WMI UAM<a class="table-element-info">ul. Zwycięstwa 14</a></td>
 					<td class="table-element-meetings"><button class="agenda">Agenda</button></td>
 				</tr>
 				<tr>
 					<td class="table-element-meetings">Gdynia</td>
-					<td class="table-element-meetings">22.10</td>
-					<td class="table-element-info">(wtorek)</td>
+					<td class="table-element-meetings">22.10<a class="table-element-info">(wtorek)</a></td>
 					<td class="table-element-meetings">18:00-21:00</td>
-					<td class="table-element-meetings">WMI UAM</td>
-					<td class="table-element-info"> ul. Zwycięstwa 14</td>
+					<td class="table-element-meetings">WMI UAM<a class="table-element-info">ul. Zwycięstwa 14</a></td>
 					<td class="table-element-meetings"><button class="agenda">Agenda</button></td>
 				</tr>
 				<tr>
 					<td class="table-element-meetings">Gdynia</td>
-					<td class="table-element-meetings">22.10</td>
-					<td class="table-element-info">(wtorek)</td>
+					<td class="table-element-meetings">22.10<a class="table-element-info">(wtorek)</a></td>
 					<td class="table-element-meetings">18:00-21:00</td>
-					<td class="table-element-meetings">WMI UAM</td>
-					<td class="table-element-info"> ul. Zwycięstwa 14</td>
+					<td class="table-element-meetings">WMI UAM<a class="table-element-info">ul. Zwycięstwa 14</a></td>
 					<td class="table-element-meetings"><button class="agenda">Agenda</button></td>
 				</tr>
 				<tr>
 					<td class="table-element-meetings">Warszawa</td>
-					<td class="table-element-meetings">22.10</td>
-					<td class="table-element-info">(wtorek)</td>
+					<td class="table-element-meetings">22.10<a class="table-element-info">(wtorek)</a></td>
 					<td class="table-element-meetings">18:00-21:00</td>
-					<td class="table-element-meetings">WMI UAM</td>
-					<td class="table-element-info"> ul. Zwycięstwa 14</td>
+					<td class="table-element-meetings">WMI UAM<a class="table-element-info">ul. Zwycięstwa 14</a></td>
 					<td class="table-element-meetings"><button class="agenda">Agenda</button></td>
 				</tr>
 				<tr>
 					<td class="table-element-meetings">Poznań</td>
-					<td class="table-element-meetings">22.10</td>
-					<td class="table-element-info">(wtorek)</td>
+					<td class="table-element-meetings">22.10<a class="table-element-info">(wtorek)</a></td>
 					<td class="table-element-meetings">18:00-21:00</td>
-					<td class="table-element-meetings">WMI UAM</td>
-					<td class="table-element-info"> ul. Zwycięstwa 14</td>
+					<td class="table-element-meetings">WMI UAM<a class="table-element-info">ul. Zwycięstwa 14</a></td>
 					<td class="table-element-meetings table-agenda"><button class="agenda">Agenda</button></td>
 				</tr>
 			</tbody>
@@ -139,23 +209,27 @@ layout: default
 	</div>
 	<div class="sponsors shadows">
 		<h1 class="title-of-section title-sponsors">Sponsorzy</h1>
-		<div class="logo"></div>
-		<div class="logo"></div>
-		<div class="logo"></div>
-		<div class="logo"></div>
-		<div style="clear: both;"></div>
-		<div class="logo"></div>
-		<div class="logo"></div>
-		<div class="logo"></div>
-		<button class="be-sponsor-partner">+ Zostań Sponsorem</button>
-		<div style="clear: both;"></div>
+		<div class="logos">
+			<div class="logo" id="sponsors-1"></div>
+			<div class="logo" id="sponsors-1"></div>
+			<div class="logo" id="sponsors-1"></div>
+			<div class="logo" id="sponsors-1"></div>
+			<div style="clear: both;"></div>
+			<div class="logo" id="sponsors-1"></div>
+			<div class="logo" id="sponsors-1"></div>
+			<div class="logo" id="sponsors-1"></div>
+			<button class="be-sponsor-partner">+ Zostań Sponsorem</button>
+			<div style="clear: both;"></div>
+		</div>
 	</div>
-    <div class="partners shadows">
+    <div class="partners">
 		<h1 class="title-of-section title-partners">Partnerzy</h1>
-		<div class="logo"></div>
-		<div class="logo"></div>
-		<div class="logo"></div>
-		<button class="be-sponsor-partner">+ Zostań Partnerem</button>
-		<div style="clear: both;"></div>
+		<div class="logos">
+			<div class="logo" id="partners-1"></div>
+			<div class="logo" id="partners-1"></div>
+			<div class="logo" id="partners-1"></div>
+			<button class="be-sponsor-partner">+ Zostań Partnerem</button>
+			<div style="clear: both;"></div>
+		</div>
 	</div>
 </div>

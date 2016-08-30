@@ -1,0 +1,45 @@
+.main-nav {
+	font-family: metafors;
+	background-color: #333741;
+	max-width: 60rem;
+	min-width: 56rem;
+	height: 3rem;
+	margin: 0 auto;
+	z-index: 9;
+	position: relative;
+	top: 100%;
+	box-shadow: 8px 9px 10px -5px rgb(32, 32, 32);
+	webkit-box-shadow: 8px 9px 10px -5px rgb(32, 32, 32);
+	moz-box-shadow: 8px 9px 10px -5px rgb(32, 32, 32);
+}
+
+.post-title, .page-heading {
+	font-family: metafors;
+	font-size: 1.25rem;
+}
+
+.menu-nav {
+	list-style-type: none;
+	padding-left: 0rem;
+	margin: 0 auto;
+	max-width: 40rem;
+}
+
+.menu-nav-element, .logo-index {
+	float: left;
+	margin: 1rem 0.5rem;
+}
+
+.logo-index {
+	margin: 1rem 5rem 0rem 1rem;
+}
+
+.nav-link {
+	font-size: 1rem;/* 0.666667rem to za ma³o; */
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav-link:hover {
+	color: #aeafb3;
+}
