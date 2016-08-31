@@ -1,6 +1,6 @@
 document.getElementById("gdynia-map").style.display = "none";
 document.getElementById("warszawa-map").style.display = "none";
-document.getElementById("poznan-map").style.display = "none";
+document.getElementById("poznan-map").style.display = "block";
 
 var gdynia=document.getElementById("gdynia");
 var warszawa=document.getElementById("warszawa");

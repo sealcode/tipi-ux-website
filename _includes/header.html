@@ -2,13 +2,24 @@
 	<div class="wrapper">
 		<nav class="main-nav shadows">
 			<ul class="menu-nav">
-				<li class="logo-index"><a class="nav-link" href="/">Tipi UX</a>
-				{% for my_page in site.pages %}
-				  {% if my_page.title && !my_page.hide_from_nav %}
-					<li class="menu-nav-element"><a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-				  {% endif %}
-				{% endfor %}
-				<li style="clear: both; margin: 0;"></li>
+				<li class="logo-index">
+					<a class="nav-link" href="/">
+						<div class="main-logo"></div>
+						Tipi UX
+					</a>
+				<!-- Poniższy kod będzie użyty, gdy będą podstrony. Póki co ręcznie będą zrobione kotwice do odpowiedniej sekcji na stronie. 
+					{% for my_page in site.pages %}
+					  {% if my_page.title && !my_page.hide_from_nav %}
+						<li class="menu-nav-element"><a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+					  {% endif %}
+					{% endfor %}
+					<li style="clear: both; margin: 0;"></li>
+				-->
+				<li class="menu-nav-element"><a class="nav-link" href="/#about">O nas</a>
+				<li class="menu-nav-element"><a class="nav-link" href="/#places">Ośrodki Tipi UX</a>
+				<li class="menu-nav-element"><a class="nav-link" href="/#nearest">Najbliższe spotkania</a>
+				<li class="menu-nav-element"><a class="nav-link" href="/be-speaker/">Zostań Sponsorem lub Prelegentem</a>
+				<li class="menu-nav-element"><a class="nav-link" href="/contact/">Kontakt</a>
 			</ul>
 		</nav>
 	</div>

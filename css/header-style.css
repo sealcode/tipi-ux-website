@@ -1,8 +1,8 @@
 .main-nav {
 	font-family: metafors;
 	background-color: #333741;
-	max-width: 60rem;
-	min-width: 56rem;
+	max-width: 100rem;
+	min-width: 40rem;
 	height: 3rem;
 	margin: 0 auto;
 	z-index: 9;
@@ -34,6 +34,14 @@
 	margin: 1rem 5rem 0rem 1rem;
 }
 
+.main-logo {
+	background-color: #fff;
+	height: 1rem;
+	width: 2rem;
+	float: left;
+	margin-right: 0.5rem;
+}
+
 .nav-link {
 	font-size: 1rem;/* 0.666667rem to za ma³o; */
 	text-decoration: none;
@@ -42,4 +50,8 @@
 
 .nav-link:hover {
 	color: #aeafb3;
+}
+
+.nav-link:hover > div {
+	background-color: #aeafb3;
 }
