@@ -1,9 +1,8 @@
 .footer-contact {
 	background-color: #333741;
-	color: #fff;
-	height: 12rem;
-	max-width: 60rem;
-	min-width: 40rem;
+	color: #aeafb3;
+	height: 11rem;
+	max-width: 100rem;
 	padding: 2rem;
 }
 
@@ -16,8 +15,16 @@
 	float: left;
 }
 
+.footer-link {
+	cursor: pointer;
+}
+
 .footer-link, .title-contact, .contact-cities {
 	line-height: 1.5rem;
+}
+
+.footer-link:hover {
+	color: #fff;
 }
 
 .title-contact {
@@ -43,7 +50,11 @@
 	width: 1rem;
 }
 
-.mailto {
+.mailto, .tel {
+	color: #aeafb3;
+}
+
+.mailto:hover, .tel:hover {
 	color: #fff;
 }
 
@@ -57,7 +68,7 @@
 .icons-bg {
 	border-radius: 0.083333rem;
 	cursor: pointer;
-	color: #fff;
+	color: #aeafb3;
 	font-size: 1.25rem;
 	background-color: #4e5462;
 	width: 1.75rem;
@@ -75,4 +86,28 @@
 	line-height: 1.25rem;
 	padding-top: 0.25rem;
 	padding-left: 0.25rem;
+}
+
+.icons-bg:hover {
+	color: #fff;
+}
+
+.footer-sealcode {
+	background-color: rgb(38,41,49);
+	color: #fff;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.sealcode-logo {
+	float: left;
+	height: 40px;
+	width: 49.1333px;
+	vertical-align: middle;
+	margin-right: 0.25rem;
+}
+
+.sealcode-info {
+	line-height: 1.5rem;
 }

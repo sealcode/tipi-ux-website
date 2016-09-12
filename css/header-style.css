@@ -2,7 +2,7 @@
 	font-family: metafors;
 	background-color: #333741;
 	max-width: 100rem;
-	min-width: 40rem;
+	text-align: center;
 	height: 3rem;
 	margin: 0 auto;
 	z-index: 9;
@@ -28,18 +28,19 @@
 .menu-nav-element, .logo-index {
 	float: left;
 	margin: 1rem 0.5rem;
+	text-align: center;
 }
 
 .logo-index {
-	margin: 1rem 5rem 0rem 1rem;
+	margin: 0.5rem 8rem 0rem 3rem;
+	line-height: 2.5rem;
 }
 
 .main-logo {
-	background-color: #fff;
-	height: 1rem;
+	height: 2rem;
 	width: 2rem;
 	float: left;
-	margin-right: 0.5rem;
+	vertical-align: middle;
 }
 
 .nav-link {
@@ -49,9 +50,5 @@
 }
 
 .nav-link:hover {
-	color: #aeafb3;
-}
-
-.nav-link:hover > div {
-	background-color: #aeafb3;
+	color: #ffc700;
 }

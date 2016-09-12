@@ -8,7 +8,6 @@
 		background-position: 80% 100%;
 		height: 22rem;
 		max-width: 100rem;
-		min-width: 40rem;
 		margin: 0 auto;
 		text-align: center;
 		z-index: 8;
@@ -29,7 +28,7 @@
 
 	.description {
 		font-family: Lato;
-		font-size: 0.583333rem;
+		font-size: 0.666667rem;
 		font-weight: normal;
 		margin: 0rem;
 		padding-bottom: 1rem;
@@ -50,8 +49,9 @@
 	.city-search {
 		border-color: #fff;
 		border-style: solid;
-		padding: 0rem 1rem 0.166666rem 1rem;
+		padding: 0rem 1rem 0rem 1rem;
 		background-color: transparent;
+		line-height: 1.5rem;
 	}
 
 	.city-search:hover {
@@ -62,7 +62,7 @@
 	
 	.icons-one {
 		float: right;
-		margin-right: 2rem;
+		margin-right: 0rem;
 		margin-top: 7rem;
 	}
 	
@@ -80,20 +80,13 @@
 		margin-right: 0.75rem;
 		color: #fff;
 		cursor: pointer;
-		box-shadow: 8px 9px 10px -5px rgba(2, 2, 2, 0.48);
-		webkit-box-shadow: 8px 9px 10px -5px rgb(2, 2, 2, 0.48);
-		moz-box-shadow: 8px 9px 10px -5px rgb(2, 2, 2, 0.48);
 	}
 	
 	.icons-soc:hover {
 		bottom: 1.5rem;
 	}
 	
-	#fb {
-		float: left;
-	}
-	
-	#instag {
+	#fb, #instag, #twit {
 		float: left;
 	}
 	
@@ -106,7 +99,6 @@
 		margin: 0 auto;
 		text-align: center;
 		max-width: 100rem;
-		min-width: 40rem;
 		z-index: 7;
 		position: relative;
 	}
@@ -120,6 +112,7 @@
 		margin: 0 auto;
 		max-width: 40rem;
 		padding-bottom: 2rem;
+		font-size: 0.75rem;
 	}
 
 	.images {
@@ -157,7 +150,6 @@
 		text-align: center;
 		margin: 0 auto;
 		max-width: 100rem;
-		min-width: 40rem;
 		background-image: url('/pictures/backgound.png/');
 		background-size: cover;
 		z-index: 6;
@@ -170,12 +162,15 @@
 		margin: 0 auto;
 	}
 	
-	.map { /* na razie to jest zwykły kwadrat */
-		background-color: #ffc700;
-		height: 13rem;
-		width: 13rem;
+	.map {
+		background-image: url('/pictures/polska_mapa.png');
+		height: 15rem;
+		width: 15rem;
 		float: left;
 		margin: 0 4rem;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 15rem 15rem;
 
 	}
 	
@@ -205,22 +200,21 @@
 	
 	.city-link:hover > p {
 		color: #333741;
-		font-weight: bold;
 	}
 	
 	#gdynia {
-		margin-right: 4rem;
-		margin-top: 1rem;
+		margin-right: 3rem;
+		margin-top: 0.5rem;
 	}
 	
 	#warszawa {
-		margin-left: 5rem;
-		margin-top: 2rem;
+		margin-left: 4.5rem;
+		margin-top: -1.5rem;
 	}
 	
 	#poznan {
-		margin-right: 4rem;
-		margin-top: 0rem;
+		margin-right: 5.5rem;
+		margin-top: 2.5rem;
 	}
 	
 	.map-info {
@@ -264,8 +258,12 @@
 
 	.meetings {
 		background-color: #333741;
-		padding: 0rem 1rem 0.166666rem 1rem;
+		padding: 0rem 1rem 0rem 1rem;
 		margin-left: 5rem;
+		line-height: 1.5rem;
+		box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
+		webkit-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
+		moz-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
 	}
 
 /* section four */
@@ -275,7 +273,6 @@
 		height: 11rem;
 		text-align: center;
 		max-width: 100rem;
-		min-width: 40rem;
 		margin: 0 auto;
 		background-color: #333741;
 		color: #fff;
@@ -292,10 +289,11 @@
 	}
 	
 	.join {
-		font-size: 0.5rem;
+		font-size: 0.666667rem;
 		background-color: #ffc700;
 		color: #000;
-		padding: 0rem 2rem 0.166666rem 2rem;
+		padding: 0rem 2rem 0rem 2rem;
+		line-height: 1.5rem;
 		box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
 		webkit-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
 		moz-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
@@ -309,7 +307,6 @@
 		margin: 0 auto;
 		text-align: center;
 		max-width: 100rem;
-		min-width: 40rem;
 		z-index: 4;
 		position: relative;
 	}
@@ -330,12 +327,12 @@
 		padding-left: 1.5rem;
 		padding-right: 0rem;
 		padding-bottom: 0.25rem;
-		font-size: 0.666667rem;
+		font-size: 0.75rem;
 		border-bottom: 0.041666rem #e8e8ea solid;
 	}
 
 	.table-element-info {
-		font-size: 0.5rem;
+		font-size: 0.666667rem;
 		margin-left: 0.25rem;
 	}
 
@@ -344,7 +341,7 @@
 	}
 
 	.agenda {
-		font-size: 0.5rem;
+		font-size: 0.666667rem;
 		color: #aeafb3;
 		background-color: transparent;
 		border-style: solid;
@@ -371,7 +368,6 @@
 	.sponsors {
 		min-height: 22rem;
 		max-width: 100rem;
-		min-width: 40rem;
 		margin: 0 auto;
 		background-image: url('/pictures/backgound.png/');
 		background-size: cover;
@@ -382,7 +378,6 @@
 	.partners {
 		min-height: 14rem;
 		max-width: 100rem;
-		min-width: 40rem;
 		margin: 0 auto;
 		text-align: center;
 		background-color: #fff;
@@ -418,7 +413,7 @@
 		margin: 0.5rem 1rem;
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: 80% 50%;
+		background-size: 80% 44%;
 	}
 	
 	label {
@@ -446,14 +441,29 @@
 	#partners-1:hover {
 		background-image: url('/pictures/logo_color.png');
 	}
+	
+	#partners-sealcode {
+		background-image: url('/pictures/logo-sealcode-black.png');
+	}
+	
+	#partners-sealcode:hover {
+		background-image: url('/pictures/logo-sealcode.png');
+	}
 
 	.be-sponsor-partner {
 		border-style: dashed;
-		border-color: #000;
+		border-color: #333741;
 		padding: 1rem 0.5rem;
 		text-align: center;
 		font-size: 0.666667rem;
 		display: block;
 		background-color: transparent;
 		float: left;
+		color: #333741;
+	}
+	
+	.be-sponsor-partner:hover {
+		border-style: solid;
+		border-color: #000;
+		color: #000;
 	}
