@@ -89,6 +89,9 @@
 }
 
 .icons-bg:hover {
+	webkit-box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
+	moz-box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
+	box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
 	color: #fff;
 }
 

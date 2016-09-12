@@ -52,12 +52,18 @@
 		padding: 0rem 1rem 0rem 1rem;
 		background-color: transparent;
 		line-height: 1.5rem;
+		box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
+		webkit-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
+		moz-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
 	}
 
 	.city-search:hover {
 		background-color: #ffc700;
 		color: #000;
 		border-color: #ffc700;
+		webkit-box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
+		moz-box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
+		box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
 	}
 	
 	.icons-one {
@@ -110,7 +116,7 @@
 	.section-content {
 		text-align: center;
 		margin: 0 auto;
-		max-width: 40rem;
+		max-width: 50rem;
 		padding-bottom: 2rem;
 		font-size: 0.75rem;
 	}
@@ -130,7 +136,15 @@
 	#img-one {
 		margin: 0rem;
 	}
-
+	
+	#img-two {
+		margin-left: 0.25rem;
+	}
+	
+	#img-last {
+		margin: 0rem;
+	}
+	
 	.img-circle {
 		height: 8rem;
 		width: 8rem;
@@ -141,6 +155,7 @@
 	.img-content {
 		text-align: center;
 		padding-top: 1rem;
+		font-size: 0.75rem;
 	}
 
 /* section three */
@@ -178,6 +193,7 @@
 		font-family: Lato;
 		font-size: 0.583333rem;
 		display: block;
+		width: 3rem;
 		cursor: pointer;
 	}
 
@@ -203,17 +219,17 @@
 	}
 	
 	#gdynia {
-		margin-right: 3rem;
+		margin-left: 4.5rem;
 		margin-top: 0.5rem;
 	}
 	
 	#warszawa {
-		margin-left: 4.5rem;
+		margin-left: 8rem;
 		margin-top: -1.5rem;
 	}
 	
 	#poznan {
-		margin-right: 5.5rem;
+		margin-left: 2.5rem;
 		margin-top: 2.5rem;
 	}
 	
@@ -265,6 +281,12 @@
 		webkit-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
 		moz-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
 	}
+	
+	.meetings:hover {
+		webkit-box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
+		moz-box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
+		box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
+	}
 
 /* section four */
 	
@@ -297,6 +319,12 @@
 		box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
 		webkit-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
 		moz-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
+	}
+	
+	.join:hover {
+		webkit-box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
+		moz-box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
+		box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
 	}
 	
 /* section five */
