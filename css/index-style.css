@@ -28,7 +28,8 @@
 
 	.description {
 		font-family: Lato;
-		font-size: 0.666667rem;
+		/*font-size: 0.666667rem;*/
+		font-size: 0.75rem;
 		font-weight: normal;
 		margin: 0rem;
 		padding-bottom: 1rem;
@@ -49,7 +50,8 @@
 	.city-search {
 		border-color: #fff;
 		border-style: solid;
-		padding: 0rem 1rem 0rem 1rem;
+		/*padding: 0rem 1rem 0rem 1rem;*/
+		padding: 0rem 1.75rem 0rem 1.75rem;
 		background-color: transparent;
 		line-height: 1.5rem;
 		box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
@@ -155,7 +157,10 @@
 	.img-content {
 		text-align: center;
 		padding-top: 1rem;
-		font-size: 0.75rem;
+		/*font-size: 0.75rem;*/
+		font-size: 0.666666667rem;
+		width: 90%;
+		margin-left: 5%;
 	}
 
 /* section three */
@@ -1073,4 +1078,8 @@
 	.be-sponsor-partner{
 		margin-bottom: 3rem !important;
 	}
+}
+
+.city-link > p{
+	font-size: 0.833333333rem;
 }
