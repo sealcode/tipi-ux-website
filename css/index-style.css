@@ -13,7 +13,7 @@
 		z-index: 8;
 		position: relative;
 	}
-	
+
 	.title-of-section {
 		font-family: metafors;
 		font-size: 1.25rem;
@@ -65,13 +65,13 @@
 		moz-box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
 		box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
 	}
-	
+
 	.icons-one {
 		float: right;
 		margin-right: 0rem;
 		margin-top: 7rem;
 	}
-	
+
 	.icons-soc {
 		display: block;
 		position: relative;
@@ -87,15 +87,15 @@
 		color: #fff;
 		cursor: pointer;
 	}
-	
+
 	.icons-soc:hover {
 		bottom: 1.5rem;
 	}
-	
+
 	#fb, #instag, #twit {
 		float: left;
 	}
-	
+
 /* section two */
 
 	.section-two {
@@ -132,19 +132,19 @@
 		float: left;
 		margin: 0rem 1rem;
 	}
-	
+
 	#img-one {
 		margin: 0rem;
 	}
-	
+
 	#img-two {
 		margin-left: 0.25rem;
 	}
-	
+
 	#img-last {
 		margin: 0rem;
 	}
-	
+
 	.img-circle {
 		height: 8rem;
 		width: 8rem;
@@ -170,13 +170,13 @@
 		z-index: 6;
 		position: relative;
 	}
-	
+
 	.center-three {
 		max-width: 45rem;
 		min-width: 42rem;
 		margin: 0 auto;
 	}
-	
+
 	.map {
 		background-image: url('/pictures/polska_mapa.png');
 		height: 15rem;
@@ -187,8 +187,10 @@
 		background-position: center;
 		background-size: 15rem 15rem;
 
+		-webkit-filter: drop-shadow(5px 5px 5px rgba(48, 48, 48, 0.58));
+		filter: drop-shadow(5px 5px 5px rgba(48, 48, 48, 0.58));
 	}
-	
+
 	.city-link {
 		font-family: Lato;
 		font-size: 0.583333rem;
@@ -213,26 +215,26 @@
 	.city-link:hover > div {
 		background-color: #333741;
 	}
-	
+
 	.city-link:hover > p {
 		color: #333741;
 	}
-	
+
 	#gdynia {
 		margin-left: 4.5rem;
 		margin-top: 0.5rem;
 	}
-	
+
 	#warszawa {
 		margin-left: 8rem;
 		margin-top: -1.5rem;
 	}
-	
+
 	#poznan {
 		margin-left: 2.5rem;
 		margin-top: 2.5rem;
 	}
-	
+
 	.map-info {
 		height: 20rem;
 		width: 20rem;
@@ -281,7 +283,7 @@
 		webkit-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
 		moz-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
 	}
-	
+
 	.meetings:hover {
 		webkit-box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
 		moz-box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
@@ -289,7 +291,7 @@
 	}
 
 /* section four */
-	
+
 	.section-four {
 		padding-top: 1rem;
 		height: 11rem;
@@ -301,15 +303,15 @@
 		z-index: 5;
 		position: relative;
 	}
-	
+
 	.content-four {
 		padding-bottom: 0rem;
 	}
-	
+
 	.title-four {
 		padding: 1rem;
 	}
-	
+
 	.join {
 		font-size: 0.666667rem;
 		background-color: #ffc700;
@@ -320,15 +322,15 @@
 		webkit-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
 		moz-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
 	}
-	
+
 	.join:hover {
 		webkit-box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
 		moz-box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
 		box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
 	}
-	
+
 /* section five */
-	
+
 	.section-five {
 		background-color: #fff;
 		height: 21rem;
@@ -338,11 +340,11 @@
 		z-index: 4;
 		position: relative;
 	}
-	
+
 	.title-five {
 		padding-bottom: 1rem;
 	}
-	
+
 	.table-meetings {
 		max-width: 40rem;
 		margin: 0 auto;
@@ -390,7 +392,7 @@
 		margin-top: 2rem;
 		margin-left: 1rem;
 	}
-	
+
 /* Sponsors and partners */
 
 	.sponsors {
@@ -402,7 +404,7 @@
 		z-index: 3;
 		position: relative;
 	}
-	
+
 	.partners {
 		min-height: 14rem;
 		max-width: 100rem;
@@ -412,7 +414,7 @@
 		z-index: 2;
 		position: relative;
 	}
-	
+
 	.title-sponsors, .title-partners {
 		padding: 2rem;
 		padding-bottom: 1rem;
@@ -425,7 +427,7 @@
 	.logo-label {
 		float: left;
 	}
-	
+
 	.logo, .logo:hover, .be-sponsor-partner, .logo-p {
 		height: 5rem;
 		width: 8rem; /* złoty podział a ciąg Fibonacciego */
@@ -443,13 +445,13 @@
 		background-position: center;
 		background-size: 80% 44%;
 	}
-	
+
 	label {
 		display: block;
 		width: 2.5rem;
 		margin: 0 auto;
 	}
-	
+
 	#sponsors-1 {
 		background-image: url('/pictures/logo.png');
 	}
@@ -457,11 +459,11 @@
 	#sponsors-1:hover {
 		background-image: url('/pictures/logo_color.png');
 	}
-	
+
 	.logo-p {
 		float: left;
 	}
-	
+
 	#partners-1 {
 		background-image: url('/pictures/logo.png');
 	}
@@ -469,11 +471,11 @@
 	#partners-1:hover {
 		background-image: url('/pictures/logo_color.png');
 	}
-	
+
 	#partners-sealcode {
 		background-image: url('/pictures/logo-sealcode-black.png');
 	}
-	
+
 	#partners-sealcode:hover {
 		background-image: url('/pictures/logo-sealcode.png');
 	}
@@ -489,9 +491,586 @@
 		float: left;
 		color: #333741;
 	}
-	
+
 	.be-sponsor-partner:hover {
 		border-style: solid;
 		border-color: #000;
 		color: #000;
 	}
+
+
+/*responsive*/
+
+@media all and (max-width: 1292px) {
+
+	/*section 2*/
+	.images{
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.images > div{
+		flex-basis: 15rem;
+	}
+
+	.img-block{
+		margin: 0;
+		margin-bottom: 2rem;
+	}
+
+	#img-one{
+		margin-bottom: 2rem;
+	}
+
+	#img-two{
+		margin: 0;
+		margin-bottom: 2rem;
+	}
+
+	#img-last{
+		margin-bottom: 2rem;
+	}
+
+	/*section three*/
+	.center-three{
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+		min-width: 0;
+		justify-content: center;
+	}
+
+	/*.section-three{
+		height: 32rem;
+	}*/
+
+	.map-info{
+		width: auto;
+	}
+
+	.map{
+		margin: 0;
+	}
+
+	/*section 5*/
+
+	.section-five{
+		height: initial;
+		padding-bottom: 4rem;
+	}
+}
+
+@media all and (max-width: 765px) {
+
+	/*section 5*/
+
+	.table-meetings tr{
+		display: flex;
+		flex-direction: column;
+		border-bottom: 0.041666rem #e8e8ea solid;
+		padding-bottom: 1rem;
+		padding-top: 1rem;
+	}
+
+	.section-five{
+		height: initial;
+	}
+
+	.table-element-meetings{
+		border-bottom: none;
+	}
+
+
+
+
+}
+
+@media all and (max-width: 778px){
+	.menu-nav-element, .logo-index{
+		margin: 1rem 0.75rem !important;
+	}
+
+	/*.main-nav{
+		height: 6rem !important;
+	}*/
+
+	.logo-index{
+		position: absolute;
+		top: 0;
+	}
+
+	.menu-nav-element{
+		margin-top: 4rem !important;
+	}
+}
+
+@media all and (max-width: 720px){
+	.section-three{
+		height: 32rem;
+	}
+}
+
+@media all and (max-width: 961px){
+	.logos{
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.logos div:nth-child(5){
+		display: none;
+	}
+
+	.logos div:last-child{
+		display: none;
+	}
+
+	.logos div{
+		clear: none;
+	}
+
+	.logos > div{
+		flex-basis: 10rem;
+		padding-bottom: 1rem;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.logos button{
+		margin: 0;
+	}
+
+	.logos a{
+		flex-basis: 10rem;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.logo{
+		display: flex;
+		margin: auto;
+	}
+
+	.logo:hover{
+		display: flex;
+		margin: auto;
+	}
+
+	.partners-link{
+		margin: 0 1rem;
+		margin-top: 0.5rem;
+		margin-bottom: 2rem;
+	}
+
+	.social-media-list{
+		margin: 0 !important;
+		margin-left: 3rem !important;
+		margin-top: 0.5rem !important;
+	}
+}
+
+@media all and (max-width: 473px){
+	.center{
+		display:flex;
+		flex-direction: column;
+	}
+
+	.contact{
+		margin: 0 !important;
+	}
+
+	.footer-contact{
+		height: auto !important;
+	}
+
+	.contact-table{
+		border: none !important;
+		padding: 0 !important;
+	}
+
+	.title-contact{
+		margin: 0 !important;
+		margin-top: 1rem !important;
+	}
+
+	.social-media-list{
+		margin: 0 !important;
+		margin-top: 1rem !important;
+	}
+
+	.be-sponsor-partner{
+		margin-bottom: 3rem !important;
+	}
+}
+
+
+
+/*iPhone 5*/
+@media all and (max-width: 321px){
+	.map-info-table td{
+		display: flex;
+		flex-direction: column;
+		padding: 0 1rem;
+		width: 100%;
+	}
+
+	.map-info-table th{
+		display: flex;
+		flex-direction: column;
+		padding: 0 1rem;
+		width: 100%;
+	}
+
+	.section-three{
+		height: 32rem;
+	}
+
+	.section-four{
+		height: 15rem;
+	}
+
+	.join{
+		padding: 0 0.75rem;
+	}
+
+	.map{
+		background-size: 10rem;
+		width: 10rem;
+		height: 10rem;
+	}
+
+	#warszawa{
+		margin-left: 5rem;
+    margin-top: -2rem;
+	}
+
+	#poznan{
+		margin-left: 1.5rem;
+    margin-top: 1.5rem;
+	}
+
+	#gdynia{
+		margin-left: 2.5rem;
+    margin-top: 0.5rem;
+	}
+
+	.icons-bg{
+		margin-top: 0.5rem;
+	}
+
+}
+
+/*iPhone 6*/
+@media all and (max-width: 376px) and (min-width: 321px){
+	.section-three{
+		height: 30rem;
+	}
+
+	.section-four{
+		height: 16rem;
+	}
+
+	.map-info-table td{
+		display: flex;
+		flex-direction: column;
+		padding: 0 1rem;
+		width: 100%;
+	}
+
+	.map-info-table th{
+		display: flex;
+		flex-direction: column;
+		padding: 0 1rem;
+		width: 100%;
+	}
+
+	.map{
+		background-size: 10rem;
+		width: 10rem;
+		height: 10rem;
+	}
+
+	.map{
+		background-size: 10rem;
+		width: 10rem;
+		height: 10rem;
+	}
+
+	#warszawa{
+		margin-left: 5rem;
+    margin-top: -2rem;
+	}
+
+	#poznan{
+		margin-left: 1.5rem;
+    margin-top: 1.5rem;
+	}
+
+	#gdynia{
+		margin-left: 2.5rem;
+    margin-top: 0.5rem;
+	}
+}
+
+/*iPhone 6 Plus*/
+@media all and (max-width: 415px) and (min-width: 376px){
+
+	.section-four{
+		height: 13rem;
+	}
+
+	.section-content{
+		margin-left: 1rem !important;
+		margin-right: 1rem !important;
+	}
+
+	.map-info-table td{
+		display: flex;
+		flex-direction: column;
+		padding: 0 1rem;
+		width: 100%;
+	}
+
+	.map-info-table th{
+		display: flex;
+		flex-direction: column;
+		padding: 0 1rem;
+		width: 100%;
+	}
+
+	.map{
+		background-size: 10rem;
+		width: 10rem;
+		height: 10rem;
+	}
+
+	.map{
+		background-size: 10rem;
+		width: 10rem;
+		height: 10rem;
+	}
+
+	#warszawa{
+		margin-left: 5rem;
+    margin-top: -2rem;
+	}
+
+	#poznan{
+		margin-left: 1.5rem;
+    margin-top: 1.5rem;
+	}
+
+	#gdynia{
+		margin-left: 2.5rem;
+    margin-top: 0.5rem;
+	}
+
+}
+
+/*iPad*/
+@media all and (max-width: 769px){
+	.section-three{
+		height: 32rem;
+	}
+
+	/*.section-content.content-four{
+		padding: 0 1rem;
+	}*/
+}
+
+/*iPhone 6 landscape*/
+@media all and (max-width: 667px) and (orientation: landscape){
+	.table-meetings tr{
+		display: flex;
+		flex-direction: column;
+		border-bottom: 0.041666rem #e8e8ea solid;
+		padding-bottom: 1rem;
+		padding-top: 1rem;
+	}
+
+	.section-five{
+		height: initial;
+	}
+
+	.table-element-meetings{
+		border-bottom: none;
+	}
+}
+
+/*iPad landscape*/
+@media all and (max-width: 1024px) and (min-width: 667px) and (orientation: landscape){
+	.logos{
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.logos div:nth-child(5){
+		display: none;
+	}
+
+	.logos div:last-child{
+		display: none;
+	}
+
+	.logos div{
+		clear: none;
+	}
+
+	.logos > div{
+		flex-basis: 10rem;
+		padding-bottom: 1rem;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.logos button{
+		margin: 0;
+	}
+
+	.logos a{
+		flex-basis: 10rem;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.logo{
+		display: flex;
+		margin: auto;
+	}
+
+	.logo:hover{
+		display: flex;
+		margin: auto;
+	}
+
+	.partners-link{
+		margin: 0 1rem;
+		margin-top: 0.5rem;
+		margin-bottom: 2rem;
+	}
+
+	.social-media-list{
+		margin: 0 !important;
+		margin-left: 3rem !important;
+		margin-top: 0.5rem !important;
+	}
+}
+
+@media all and (max-width: 560px){
+	.icons-one{
+		margin-top: 4rem;
+	}
+}
+
+@media all and (max-width: 1200px) and (min-width: 961px){
+	.logos{
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.logos div:nth-child(5){
+		display: none;
+	}
+
+	.logos div:last-child{
+		display: none;
+	}
+
+	.logos div{
+		clear: none;
+	}
+
+	.logos > div{
+		flex-basis: 10rem;
+		padding-bottom: 1rem;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.logos button{
+		margin: 0;
+	}
+
+	.logos a{
+		flex-basis: 10rem;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.logo{
+		display: flex;
+		margin: auto;
+	}
+
+	.logo:hover{
+		display: flex;
+		margin: auto;
+	}
+
+	.partners-link{
+		margin: 0 1rem;
+		margin-top: 0.5rem;
+		margin-bottom: 2rem;
+	}
+
+	.social-media-list{
+		margin: 0 !important;
+		margin-left: 3rem !important;
+		margin-top: 0.5rem !important;
+	}
+}
+
+@media all and (max-width: 905px) and (min-width: 770px){
+	.section-three{
+		height: 32rem;
+	}
+}
+
+@media all and (max-width: 590px) and (min-width: 470px){
+	.center{
+		display:flex;
+		flex-direction: column;
+	}
+
+	.contact{
+		margin: 0 !important;
+	}
+
+	.footer-contact{
+		height: auto !important;
+	}
+
+	.contact-table{
+		border: none !important;
+		padding: 0 !important;
+	}
+
+	.title-contact{
+		margin: 0 !important;
+		margin-top: 1rem !important;
+	}
+
+	.social-media-list{
+		margin: 0 !important;
+		margin-top: 1rem !important;
+	}
+}
+
+@media all and (max-width: 600px) and (min-width: 474px){
+	.be-sponsor-partner{
+		margin-bottom: 3rem !important;
+	}
+}
