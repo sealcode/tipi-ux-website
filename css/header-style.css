@@ -8,9 +8,9 @@
 	z-index: 9;
 	position: relative;
 	top: 100%;
-	box-shadow: 8px 9px 10px -5px rgb(32, 32, 32);
-	webkit-box-shadow: 8px 9px 10px -5px rgb(32, 32, 32);
-	moz-box-shadow: 8px 9px 10px -5px rgb(32, 32, 32);
+	box-shadow: -1px 9px 10px -5px rgba(32, 32, 32, 0.45);
+	-webkit-box-shadow: -1px 9px 10px -5px rgba(32, 32, 32, 0.45);
+	-moz-box-shadow: -1px 9px 10px -5px rgba(32, 32, 32, 0.45);
 }
 
 .post-title, .page-heading {

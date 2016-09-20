@@ -77,22 +77,23 @@
 	float: left;
 	margin-right: 0.5rem;
 	line-height: 1.5rem;
-	box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
-	webkit-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
-	moz-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
+	box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.24);
+	webkit-box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.24);
+	moz-box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.24);
+	display: flex;
+	align-items: center;
 }
 
 #fb-footer {
 	line-height: 1.25rem;
-	padding-top: 0.25rem;
-	padding-left: 0.25rem;
 }
 
 .icons-bg:hover {
-	webkit-box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
-	moz-box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
-	box-shadow: 8px 9px 10px -5px rgba(38,41,49,1);
 	color: #fff;
+}
+
+.icons-bg i {
+	flex-grow: 1;
 }
 
 .footer-sealcode {

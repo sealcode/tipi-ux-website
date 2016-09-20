@@ -1,5 +1,10 @@
 /* section one */
 
+	.link-container {
+		display: block;
+		text-align: center;
+	}
+
 	.section-one {
 		color: #fff;
 		background-image: url('/pictures/background.png/');
@@ -42,7 +47,7 @@
 		font-family: Lato;
 		color: #fff;
 		border-width: 0.083333rem;
-		transition: 300ms;
+		transition: 250ms;
 		border-style: none;
 		cursor: pointer;
 	}
@@ -54,9 +59,9 @@
 		padding: 0rem 1.75rem 0rem 1.75rem;
 		background-color: transparent;
 		line-height: 1.5rem;
-		box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
-		webkit-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
-		moz-box-shadow: 8px 9px 10px -5px rgb(0, 0, 0);
+		-box-shadow: 8px 9px 10px -5px rgba(0, 0, 0, 0.5);
+		-webkit-box-shadow: 8px 9px 10px -5px rgba(0, 0, 0, 0.5);
+		-moz-box-shadow: 8px 9px 10px -5px rgba(0, 0, 0, 0.5);
 	}
 
 	.city-search:hover {
@@ -78,7 +83,7 @@
 		display: block;
 		position: relative;
 		bottom: 1.25rem;
-		transition-duration: 300ms;
+		transition-duration: 25
 		transition-timing-function: ease-out;
 		background-color: transparent;
 		height: 1.5rem;
@@ -119,32 +124,22 @@
 		text-align: center;
 		margin: 0 auto;
 		max-width: 50rem;
-		padding-bottom: 2rem;
+		margin-bottom: 2rem;
 		font-size: 0.75rem;
 	}
 
 	.images {
 		text-align: center;
+		display: flex;
+		flex-flow: row wrap;
 		max-width: 42rem;
 		margin: 0 auto;
 	}
 
 	.img-block {
 		text-align: center;
-		float: left;
+		flex-basis: 8rem;
 		margin: 0rem 1rem;
-	}
-
-	#img-one {
-		margin: 0rem;
-	}
-
-	#img-two {
-		margin-left: 0.25rem;
-	}
-
-	#img-last {
-		margin: 0rem;
 	}
 
 	.img-circle {
@@ -156,17 +151,15 @@
 
 	.img-content {
 		text-align: center;
-		padding-top: 1rem;
+		margin-top: 1rem;
 		/*font-size: 0.75rem;*/
-		font-size: 0.666666667rem;
-		width: 90%;
-		margin-left: 5%;
+		font-size: calc( 2 / 3 * 1rem );
 	}
 
 /* section three */
 
 	.section-three {
-		height: 26rem;
+		padding-bottom: 2rem;
 		text-align: center;
 		margin: 0 auto;
 		max-width: 100rem;
@@ -177,20 +170,21 @@
 	}
 
 	.center-three {
-		max-width: 45rem;
-		min-width: 42rem;
-		margin: 0 auto;
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.map {
 		background-image: url('/pictures/polska_mapa.png');
+		background-size: contain;
 		height: 15rem;
 		width: 15rem;
-		float: left;
 		margin: 0 4rem;
+		margin-right: 2rem;	
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: 15rem 15rem;
 
 		-webkit-filter: drop-shadow(5px 5px 5px rgba(48, 48, 48, 0.58));
 		filter: drop-shadow(5px 5px 5px rgba(48, 48, 48, 0.58));
@@ -202,6 +196,7 @@
 		display: block;
 		width: 3rem;
 		cursor: pointer;
+		position: absolute;
 	}
 
 	.city-link-div {
@@ -214,7 +209,7 @@
 		position: relative;
 		left: 0;
 		background-color: #fff;
-		transition: 300ms;
+		transition: 25
 	}
 
 	.city-link:hover > div {
@@ -226,24 +221,22 @@
 	}
 
 	#gdynia {
-		margin-left: 4.5rem;
-		margin-top: 0.5rem;
+		top: 5%;
+		left: 31%;
 	}
 
 	#warszawa {
-		margin-left: 8rem;
-		margin-top: -1.5rem;
+		top: 39%;
+		left: 58%;
 	}
 
 	#poznan {
-		margin-left: 2.5rem;
-		margin-top: 2.5rem;
+		left: 21%;
+		top: 37%;
 	}
 
 	.map-info {
-		height: 20rem;
 		width: 20rem;
-		float: left;
 		text-align: left;
 	}
 
@@ -298,8 +291,7 @@
 /* section four */
 
 	.section-four {
-		padding-top: 1rem;
-		height: 11rem;
+		padding: 1rem;
 		text-align: center;
 		max-width: 100rem;
 		margin: 0 auto;
@@ -428,14 +420,18 @@
 	.logos {
 		max-width: 40rem;
 		margin: 0 auto;
-	}
-	.logo-label {
-		float: left;
+		display: flex;
+		flex-flow: row wrap;
 	}
 
-	.logo, .logo:hover, .be-sponsor-partner, .logo-p {
+	.logos > * {
+		flex-basis: calc(25% - 2rem );
+	}
+
+	.logo, .logo:hover, .partners-link, .join-link, .be-sponsor-partner, .logo-p {
 		height: 5rem;
 		width: 8rem; /* złoty podział a ciąg Fibonacciego */
+		max-width: 8rem;
 		color: #000;
 		border-radius: 0rem;
 		text-align: center;
@@ -448,7 +444,15 @@
 		margin: 0.5rem 1rem;
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: 80% 44%;
+		background-size: 88%;
+	}
+
+	.partners-link, .join-link {
+		border: none;
+	}
+
+	.be-sponsor-partner { 
+		margin: 0;
 	}
 
 	label {
@@ -493,8 +497,8 @@
 		font-size: 0.666667rem;
 		display: block;
 		background-color: transparent;
-		float: left;
 		color: #333741;
+		width: 100%;
 	}
 
 	.be-sponsor-partner:hover {
@@ -516,25 +520,8 @@
 		justify-content: center;
 	}
 
-	.images > div{
-		flex-basis: 15rem;
-	}
-
 	.img-block{
-		margin: 0;
-		margin-bottom: 2rem;
-	}
-
-	#img-one{
-		margin-bottom: 2rem;
-	}
-
-	#img-two{
-		margin: 0;
-		margin-bottom: 2rem;
-	}
-
-	#img-last{
+		margin: 0 1rem;
 		margin-bottom: 2rem;
 	}
 
@@ -553,10 +540,6 @@
 
 	.map-info{
 		width: auto;
-	}
-
-	.map{
-		margin: 0;
 	}
 
 	/*section 5*/
@@ -645,10 +628,6 @@
 		flex-direction: column;
 	}
 
-	.logos button{
-		margin: 0;
-	}
-
 	.logos a{
 		flex-basis: 10rem;
 		height: 100%;
@@ -658,12 +637,6 @@
 
 	.logo{
 		display: flex;
-		margin: auto;
-	}
-
-	.logo:hover{
-		display: flex;
-		margin: auto;
 	}
 
 	.partners-link{
@@ -731,10 +704,6 @@
 		width: 100%;
 	}
 
-	.section-three{
-		height: 32rem;
-	}
-
 	.section-four{
 		height: 15rem;
 	}
@@ -747,21 +716,6 @@
 		background-size: 10rem;
 		width: 10rem;
 		height: 10rem;
-	}
-
-	#warszawa{
-		margin-left: 5rem;
-    margin-top: -2rem;
-	}
-
-	#poznan{
-		margin-left: 1.5rem;
-    margin-top: 1.5rem;
-	}
-
-	#gdynia{
-		margin-left: 2.5rem;
-    margin-top: 0.5rem;
 	}
 
 	.icons-bg{
@@ -809,21 +763,6 @@
 		width: 10rem;
 		height: 10rem;
 	}
-
-	#warszawa{
-		margin-left: 5rem;
-    margin-top: -2rem;
-	}
-
-	#poznan{
-		margin-left: 1.5rem;
-    margin-top: 1.5rem;
-	}
-
-	#gdynia{
-		margin-left: 2.5rem;
-    margin-top: 0.5rem;
-	}
 }
 
 /*iPhone 6 Plus*/
@@ -864,28 +803,10 @@
 		height: 10rem;
 	}
 
-	#warszawa{
-		margin-left: 5rem;
-    margin-top: -2rem;
-	}
-
-	#poznan{
-		margin-left: 1.5rem;
-    margin-top: 1.5rem;
-	}
-
-	#gdynia{
-		margin-left: 2.5rem;
-    margin-top: 0.5rem;
-	}
-
 }
 
 /*iPad*/
 @media all and (max-width: 769px){
-	.section-three{
-		height: 32rem;
-	}
 
 	/*.section-content.content-four{
 		padding: 0 1rem;
@@ -940,10 +861,6 @@
 		flex-direction: column;
 	}
 
-	.logos button{
-		margin: 0;
-	}
-
 	.logos a{
 		flex-basis: 10rem;
 		height: 100%;
@@ -953,12 +870,6 @@
 
 	.logo{
 		display: flex;
-		margin: auto;
-	}
-
-	.logo:hover{
-		display: flex;
-		margin: auto;
 	}
 
 	.partners-link{
@@ -1008,10 +919,6 @@
 		flex-direction: column;
 	}
 
-	.logos button{
-		margin: 0;
-	}
-
 	.logos a{
 		flex-basis: 10rem;
 		height: 100%;
@@ -1021,12 +928,6 @@
 
 	.logo{
 		display: flex;
-		margin: auto;
-	}
-
-	.logo:hover{
-		display: flex;
-		margin: auto;
 	}
 
 	.partners-link{
@@ -1039,12 +940,6 @@
 		margin: 0 !important;
 		margin-left: 3rem !important;
 		margin-top: 0.5rem !important;
-	}
-}
-
-@media all and (max-width: 905px) and (min-width: 770px){
-	.section-three{
-		height: 32rem;
 	}
 }
 
@@ -1091,5 +986,14 @@
 @media all and (max-width: 630px) and (min-width: 561px){
 	.icons-one{
 		margin-top: 4.5rem !important;
+	}
+}
+
+
+@media (max-width: 38rem){
+
+	.map{
+		height: 10rem;
+		width: 10rem;
 	}
 }
