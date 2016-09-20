@@ -647,7 +647,6 @@
 
 	.social-media-list{
 		margin: 0 !important;
-		margin-left: 3rem !important;
 		margin-top: 0.5rem !important;
 	}
 }
@@ -880,7 +879,6 @@
 
 	.social-media-list{
 		margin: 0 !important;
-		margin-left: 3rem !important;
 		margin-top: 0.5rem !important;
 	}
 }
@@ -938,7 +936,6 @@
 
 	.social-media-list{
 		margin: 0 !important;
-		margin-left: 3rem !important;
 		margin-top: 0.5rem !important;
 	}
 }
@@ -960,11 +957,6 @@
 	.contact-table{
 		border: none !important;
 		padding: 0 !important;
-	}
-
-	.title-contact{
-		margin: 0 !important;
-		margin-top: 1rem !important;
 	}
 
 	.social-media-list{
