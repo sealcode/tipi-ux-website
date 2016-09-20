@@ -768,6 +768,10 @@
 		margin-top: 0.5rem;
 	}
 
+	.icons-one{
+		margin-top: 2.5rem !important;
+	}
+
 }
 
 /*iPhone 6*/
@@ -1082,4 +1086,10 @@
 
 .city-link > p{
 	font-size: 0.833333333rem;
+}
+
+@media all and (max-width: 630px) and (min-width: 561px){
+	.icons-one{
+		margin-top: 4.5rem !important;
+	}
 }

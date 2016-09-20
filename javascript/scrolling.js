@@ -1,4 +1,4 @@
-$(document).on('click', 'a', function(event){
+$(document).on('click', '.scroll-link', function(event){
   event.preventDefault();
 
   $('html, body').animate({
