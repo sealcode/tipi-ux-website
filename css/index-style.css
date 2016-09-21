@@ -21,6 +21,7 @@
 		display: flex;
 		flex-flow: column;
 		justify-content: space-around;
+		padding-top: 2rem;
 	}
 
 	.title-of-section {
@@ -76,7 +77,7 @@
 	}
 
 	.icons-one {
-		margin-right: 0rem;
+		margin-top: 1rem;
 		display: flex;
 		align-self: flex-end;
 	}
@@ -109,6 +110,7 @@
 		max-width: 100rem;
 		z-index: 7;
 		position: relative;
+		padding-bottom: 2rem;
 	}
 
 	.title-two, .title-three, .title-five {
@@ -129,6 +131,7 @@
 		flex-flow: row wrap;
 		max-width: 42rem;
 		margin: 0 auto;
+		justify-content: center;
 	}
 
 	.img-block {
@@ -531,7 +534,6 @@
 
 	.img-block{
 		margin: 0 1rem;
-		margin-bottom: 2rem;
 	}
 
 	/*section three*/
