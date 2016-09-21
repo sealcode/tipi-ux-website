@@ -11,12 +11,16 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 80% 100%;
-		height: 22rem;
 		max-width: 100rem;
 		margin: 0 auto;
 		text-align: center;
 		z-index: 8;
 		position: relative;
+		min-height: 80vh;
+		padding-bottom: 1rem;
+		display: flex;
+		flex-flow: column;
+		justify-content: space-around;
 	}
 
 	.title-of-section {
@@ -27,18 +31,15 @@
 		text-align: center;
 	}
 
-	.title-one {
-		padding: 6rem 2rem 0rem 2rem;
-	}
-
 	.description {
 		font-family: Lato;
 		/*font-size: 0.666667rem;*/
 		font-size: 0.75rem;
+		line-height: 1rem;
 		font-weight: normal;
 		margin: 0rem;
 		padding: 0 1rem;
-		padding-bottom: 1rem;
+		margin: 1rem 0;
 		text-align: center;
 	}
 
@@ -75,16 +76,14 @@
 	}
 
 	.icons-one {
-		float: right;
 		margin-right: 0rem;
-		margin-top: 7rem;
+		display: flex;
+		align-self: flex-end;
 	}
 
 	.icons-soc {
 		display: block;
-		position: relative;
-		bottom: 1.25rem;
-		transition-duration: 25
+		transition-duration: 250ms;
 		transition-timing-function: ease-out;
 		background-color: transparent;
 		height: 1.5rem;
@@ -98,10 +97,6 @@
 
 	.icons-soc:hover {
 		bottom: 1.5rem;
-	}
-
-	#fb, #instag, #twit {
-		float: left;
 	}
 
 /* section two */
@@ -590,10 +585,6 @@
 		margin: 1rem 0.75rem !important;
 	}
 
-	/*.main-nav{
-		height: 6rem !important;
-	}*/
-
 	.logo-index{
 		position: absolute;
 		top: 0;
@@ -697,10 +688,6 @@
 		width: 100%;
 	}
 
-	.section-four{
-		height: 15rem;
-	}
-
 	.join{
 		padding: 0 0.75rem;
 	}
@@ -715,21 +702,10 @@
 		margin-top: 0.5rem;
 	}
 
-	.icons-one{
-		margin-top: 2.5rem !important;
-	}
-
 }
 
 /*iPhone 6*/
 @media all and (max-width: 376px) and (min-width: 321px){
-	.section-three{
-		height: 30rem;
-	}
-
-	.section-four{
-		height: 16rem;
-	}
 
 	.map-info-table td{
 		display: flex;
@@ -760,10 +736,6 @@
 
 /*iPhone 6 Plus*/
 @media all and (max-width: 415px) and (min-width: 376px){
-
-	.section-four{
-		height: 13rem;
-	}
 
 	.section-content{
 		margin-left: 1rem !important;
@@ -870,11 +842,6 @@
 	}
 }
 
-@media all and (max-width: 560px){
-	.icons-one{
-		margin-top: 4rem;
-	}
-}
 
 @media all and (max-width: 1200px) and (min-width: 961px){
 	.logos{
@@ -948,11 +915,6 @@
 	font-size: 0.833333333rem;
 }
 
-@media all and (max-width: 630px) and (min-width: 561px){
-	.icons-one{
-		margin-top: 4.5rem !important;
-	}
-}
 
 
 @media (max-width: 38rem){
@@ -960,6 +922,7 @@
 	.map{
 		height: 10rem;
 		width: 10rem;
+		margin: 0;
 	}
 }
 
