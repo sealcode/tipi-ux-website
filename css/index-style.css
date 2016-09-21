@@ -476,26 +476,32 @@
 		margin: 0 auto;
 	}
 
-	#sponsors-1 {
-		background-image: url('/pictures/logo.png');
+	#sponsors-sml {
+		background-image: url('/pictures/sml.png');
 	}
 
-	#sponsors-1:hover {
-		background-image: url('/pictures/logo_color.png');
+	#sponsors-sml:hover {
+		background-image: url('/pictures/sml_color.png');
+	}
+    #sponsors-speednet {
+		background-image: url('/pictures/speednet.png');
+	}
+
+	#sponsors-speednet:hover {
+		background-image: url('/pictures/speednet_color.png');
+	}
+    #sponsors-desmart {
+		background-image: url('/pictures/desmart.png');
+	}
+
+	#sponsors-desmart:hover {
+		background-image: url('/pictures/desmart_color.png');
 	}
 	
 	.logo {
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		background-size: 88%;
-	}
-
-	#partners-1 {
-		background-image: url('/pictures/logo.png');
-	}
-
-	#partners-1:hover {
-		background-image: url('/pictures/logo_color.png');
 	}
 
 	#partners-sealcode {
@@ -505,7 +511,44 @@
 	#partners-sealcode:hover {
 		background-image: url('/pictures/logo-sealcode.png');
 	}
+    #partners-ppnt {
+		background-image: url('/pictures/ppnt.png');
+	}
 
+	#partners-ppnt:hover {
+		background-image: url('/pictures/ppnt_color.png');
+	}
+    #partners-strefastartup {
+		background-image: url('/pictures/strefastartup.png');
+	}
+
+	#partners-strefastartup:hover {
+		background-image: url('/pictures/strefastartup_color.png');
+	}
+    #partners-uxswps {
+		background-image: url('/pictures/uxswps.png');
+	}
+
+	#partners-uxswps:hover {
+		background-image: url('/pictures/uxswps_color.png');
+	}
+    #partners-przedsiebiorczak {
+		background-image: url('/pictures/przedsiebiorczak.png');
+	}
+
+	#partners-przedsiebiorczak:hover {
+		background-image: url('/pictures/przedsiebiorczak_color.png');
+	}
+    #partners-publoft {
+		background-image: url('/pictures/publoft.png');
+	}
+
+	#partners-edisonda:hover {
+		background-image: url('/pictures/edusonda.png');
+	}
+    #partners-edisonda:hover {
+		background-image: url('/pictures/edisonda_color.png');
+	}
 	.be-sponsor-partner {
 		text-align: center;
 		font-size: 0.666667rem;
