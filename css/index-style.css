@@ -331,12 +331,12 @@
 
 	.section-five {
 		background-color: #fff;
-		height: 21rem;
 		margin: 0 auto;
 		text-align: center;
 		max-width: 100rem;
 		z-index: 4;
 		position: relative;
+		padding-bottom: 2rem;
 	}
 
 	.title-five {
