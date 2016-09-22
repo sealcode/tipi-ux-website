@@ -186,7 +186,7 @@
 		height: 15rem;
 		width: 15rem;
 		margin: 0 4rem;
-		margin-right: 2rem;	
+		margin-right: 2rem;
 		background-repeat: no-repeat;
 		background-position: center;
 
@@ -396,6 +396,11 @@
 		margin-left: 1rem;
 	}
 
+	div[class^='section-']{
+		padding-left: 0.4rem;
+		padding-right: 0.4rem;
+	}
+
 /* Sponsors and partners */
 
 	.sponsors {
@@ -469,7 +474,7 @@
 		border-style: solid;
 	}
 
-	.be-sponsor-partner { 
+	.be-sponsor-partner {
 		margin: 0!important;
 		display: flex;
 		flex-flow: row;
@@ -504,7 +509,7 @@
 	#sponsors-desmart:hover {
 		background-image: url('/pictures/desmart_color.png');
 	}
-	
+
 	.logo {
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
