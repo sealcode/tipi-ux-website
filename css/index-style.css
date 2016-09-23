@@ -167,7 +167,7 @@
 		margin: 0 auto;
 		max-width: 100rem;
 		background-image: url('/pictures/backgound.png');
-		background-size: cover;
+		/*background-size: cover;*/
 		z-index: 6;
 		position: relative;
 	}
