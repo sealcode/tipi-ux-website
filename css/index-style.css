@@ -580,7 +580,7 @@
 
 /*responsive*/
 
-@media all and (max-width: 1292px) {
+@media all and (max-width: 80.75rem) {
 
 	/*section 2*/
 	.images{
@@ -611,7 +611,7 @@
 	}
 }
 
-@media all and (max-width: 765px) {
+@media all and (max-width: 48rem) {
 
 	/*section 5*/
 
@@ -636,7 +636,7 @@
 
 }
 
-@media all and (max-width: 778px){
+@media all and (max-width: 50rem){
 	.menu-nav-element, .logo-index{
 		margin: 1rem 0.75rem !important;
 	}
@@ -651,7 +651,7 @@
 	}
 }
 
-@media all and (max-width: 961px){
+@media all and (max-width: 64rem){
 	.logos{
 		display: flex;
 		width: 100%;
@@ -696,7 +696,7 @@
 	}
 }
 
-@media all and (max-width: 473px){
+@media all and (max-width: 32rem){
 	.center{
 		display:flex;
 		flex-direction: column;
@@ -729,7 +729,7 @@
 
 
 /*iPhone 5*/
-@media all and (max-width: 321px){
+@media all and (max-width: 22rem){
 	.map-info-table td{
 		display: flex;
 		flex-direction: column;
@@ -761,7 +761,7 @@
 }
 
 /*iPhone 6*/
-@media all and (max-width: 376px) {
+@media all and (max-width: 24rem) {
 
 
 	.map-info-table td{
@@ -792,7 +792,7 @@
 }
 
 /*iPhone 6 Plus*/
-@media all and (max-width: 415px) {
+@media all and (max-width: 28rem) {
 	.section-content{
 		margin-left: 1rem !important;
 		margin-right: 1rem !important;
@@ -824,7 +824,7 @@
 }
 
 /*iPad*/
-@media all and (max-width: 769px){
+@media all and (max-width: 48rem){
 
 	/*.section-content.content-four{
 		padding: 0 1rem;
@@ -832,7 +832,7 @@
 }
 
 /*iPhone 6 landscape*/
-@media all and (max-width: 667px) and (orientation: landscape){
+@media all and (max-width: 42rem) and (orientation: landscape){
 	.table-meetings tr{
 		display: flex;
 		flex-direction: column;
@@ -851,7 +851,7 @@
 }
 
 /*iPad landscape*/
-@media all and (max-width: 1024px)  and (orientation: landscape){
+@media all and (max-width: 64rem)  and (orientation: landscape){
 	.logos{
 		display: flex;
 		width: 100%;
@@ -896,7 +896,7 @@
 }
 
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 75rem) {
 	.logos{
 		display: flex;
 		width: 100%;
@@ -939,7 +939,7 @@
 	}
 }
 
-@media all and (max-width: 590px) {
+@media all and (max-width: 38rem) {
 	.center{
 		display:flex;
 		flex-direction: column;
