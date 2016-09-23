@@ -246,6 +246,8 @@
 
 	.map-info-table {
 		height: 8rem;
+		padding-left: 0.6rem;
+		padding-right: 0.6rem;
 	}
 
 	.header-table {
@@ -597,7 +599,7 @@
 	}
 
 	.map-info{
-		width: auto;
+		/*width: auto;*/
 	}
 
 	/*section 5*/
