@@ -761,7 +761,8 @@
 }
 
 /*iPhone 6*/
-@media all and (max-width: 376px) and (min-width: 321px){
+@media all and (max-width: 376px) {
+
 
 	.map-info-table td{
 		display: flex;
@@ -791,11 +792,14 @@
 }
 
 /*iPhone 6 Plus*/
-@media all and (max-width: 415px) and (min-width: 376px){
-
+@media all and (max-width: 415px) {
 	.section-content{
 		margin-left: 1rem !important;
 		margin-right: 1rem !important;
+	}
+
+	.map-info {
+		height: auto;
 	}
 
 	.map-info-table td{
@@ -817,13 +821,6 @@
 		width: 10rem;
 		height: 10rem;
 	}
-
-	.map{
-		background-size: 10rem;
-		width: 10rem;
-		height: 10rem;
-	}
-
 }
 
 /*iPad*/
@@ -854,7 +851,7 @@
 }
 
 /*iPad landscape*/
-@media all and (max-width: 1024px) and (min-width: 667px) and (orientation: landscape){
+@media all and (max-width: 1024px)  and (orientation: landscape){
 	.logos{
 		display: flex;
 		width: 100%;
@@ -899,7 +896,7 @@
 }
 
 
-@media all and (max-width: 1200px) and (min-width: 961px){
+@media all and (max-width: 1200px) {
 	.logos{
 		display: flex;
 		width: 100%;
@@ -942,7 +939,7 @@
 	}
 }
 
-@media all and (max-width: 590px) and (min-width: 470px){
+@media all and (max-width: 590px) {
 	.center{
 		display:flex;
 		flex-direction: column;
