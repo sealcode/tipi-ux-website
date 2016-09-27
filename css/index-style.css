@@ -42,6 +42,7 @@
 		padding: 0 1rem;
 		margin: 1rem 0;
 		text-align: center;
+        padding: 0 10% 0 10%;
 	}
 
 	button {
@@ -128,6 +129,7 @@
 		max-width: 50rem;
 		margin-bottom: 2rem;
 		font-size: 0.75rem;
+        padding: 0 10% 0 10%;
 	}
 
 	.images {
@@ -499,18 +501,18 @@
 		background-image: url('/pictures/sml_color.png');
 	}
     #sponsors-speednet {
-		background-image: url('/pictures/speednet.png');
+		background-image: url('/pictures/speednet_color.png');
 	}
 
 	#sponsors-speednet:hover {
-		background-image: url('/pictures/speednet_color.png');
+		background-image: url('/pictures/speednet.png');
 	}
     #sponsors-desmart {
-		background-image: url('/pictures/desmart.png');
+		background-image: url('/pictures/desmart_color.png');
 	}
 
 	#sponsors-desmart:hover {
-		background-image: url('/pictures/desmart_color.png');
+		background-image: url('/pictures/desmart.png');
 	}
 
 	.logo {
@@ -527,39 +529,42 @@
 		background-image: url('/pictures/logo-sealcode.png');
 	}
     #partners-ppnt {
-		background-image: url('/pictures/ppnt.png');
+		background-image: url('/pictures/ppnt_color.png');
 	}
 
 	#partners-ppnt:hover {
-		background-image: url('/pictures/ppnt_color.png');
+		background-image: url('/pictures/ppnt.png');
 	}
     #partners-strefastartup {
-		background-image: url('/pictures/strefastartup.png');
+		background-image: url('/pictures/strefastartup_color.png');
 	}
 
 	#partners-strefastartup:hover {
-		background-image: url('/pictures/strefastartup_color.png');
+		background-image: url('/pictures/strefastartup.png');
 	}
     #partners-uxswps {
-		background-image: url('/pictures/uxswps.png');
+		background-image: url('/pictures/uxswps_color.png');
 	}
 
 	#partners-uxswps:hover {
-		background-image: url('/pictures/uxswps_color.png');
+		background-image: url('/pictures/uxswps.png');
 	}
     #partners-przedsiebiorczak {
-		background-image: url('/pictures/przedsiebiorczak.png');
+		background-image: url('/pictures/przedsiebiorczak_color.png');
 	}
 
 	#partners-przedsiebiorczak:hover {
-		background-image: url('/pictures/przedsiebiorczak_color.png');
+		background-image: url('/pictures/przedsiebiorczak.png');
 	}
     #partners-publoft {
+		background-image: url('/pictures/publoft_color.png');
+	}
+      #partners-publoft:hover {
 		background-image: url('/pictures/publoft.png');
 	}
 
-	#partners-edisonda:hover {
-		background-image: url('/pictures/edusonda.png');
+	#partners-edisonda {
+		background-image: url('/pictures/edisonda.png');
 	}
     #partners-edisonda:hover {
 		background-image: url('/pictures/edisonda_color.png');
