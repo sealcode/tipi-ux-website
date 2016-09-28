@@ -476,6 +476,7 @@
 	}
 
 	.box.placeholder:hover {
+		transition: all 400ms;
 		border-style: solid;
 	}
 
@@ -485,6 +486,7 @@
 		flex-flow: row;
 		align-items: center;
 		padding: 0;
+
 	}
 
 	label {
@@ -512,7 +514,7 @@
 	#partners-edisonda { background-image: url('/pictures/logos/partners/edisonda.png'); }
 
 	div[id^='sponsors-'], a[id^='partners-']{
-		filter: grayscale(100);
+		filter: grayscale(100) brightness(90%);
 		transition: all 200ms;
 	}
 
