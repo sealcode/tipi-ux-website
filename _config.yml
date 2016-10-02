@@ -3,9 +3,7 @@
 title: Tipi UX
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-   Vestibulum rutrum mattis eros, lacinia vestibulum mi blandit et.
-   Morbi vitae ex lectus. Praesent leo tellus, lacinia vel ligula eu, luctus convallis.
+    Tipi UX to regularne spotkania o tematyce User Experience, grafice, psychologii, programowaniu, marketingu czyli o wszystkim tym co jest istotne przy tworzeniu użytecznych rozwiązań.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
