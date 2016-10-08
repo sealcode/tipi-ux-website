@@ -504,7 +504,7 @@
 		background-position: 50% 50%;
 		background-size: 88%;
 	}
-
+	#partners-microsoft { background-image: url('/pictures/logos/partners/microsoft.png'); }
 	#partners-sealcode { background-image: url('/pictures/logos/partners/sealcode.png'); }
     #partners-ppnt { background-image: url('/pictures/logos/partners/ppnt.png'); }
     #partners-strefastartup { background-image: url('/pictures/logos/partners/strefastartup.png'); }
@@ -513,7 +513,7 @@
     #partners-publoft { background-image: url('/pictures/logos/partners/publoft.png'); }
 	#partners-edisonda { background-image: url('/pictures/logos/partners/edisonda.png'); }
 
-	div[id^='sponsors-'], a[id^='partners-']{
+	/*div[id^='sponsors-'], a[id^='partners-']{
 		filter: grayscale(100) brightness(90%);
 		transition: all 200ms;
 	}
@@ -521,7 +521,7 @@
 	div[id^='sponsors-']:hover, a[id^='partners-']:hover{
 		filter: grayscale(0);
 	}
-
+*/
 	.be-sponsor-partner {
 		text-align: center;
 		font-size: 0.666667rem;
