@@ -26,7 +26,7 @@
 
 	.title-of-section {
 		font-family: metafors;
-		font-size: 1.25rem;
+		font-size: 1.5rem;
 		font-weight: normal;
 		margin-top: 0rem;
 		text-align: center;
@@ -263,7 +263,7 @@
 	}
 
 	.city-title {
-		font-size: 1rem;/*0.583333rem to za mało;*/
+		font-size: 1.5rem;/*0.583333rem to za mało;*/
 		font-weight: normal;
 		font-family: metafors;
 		padding-right: 8rem;
