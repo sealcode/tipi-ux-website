@@ -16,17 +16,17 @@
 		text-align: center;
 		z-index: 8;
 		position: relative;
-		min-height: 80vh;
+		min-height: 70vh;
 		padding-bottom: 1rem;
 		display: flex;
 		flex-flow: column;
 		justify-content: space-around;
-		padding-top: 2rem;
+		padding-top: 4rem;
 	}
 
 	.title-of-section {
 		font-family: metafors;
-		font-size: 1.5rem;
+		font-size: 1.9rem;
 		font-weight: normal;
 		margin-top: 0rem;
 		text-align: center;
@@ -501,10 +501,15 @@
 		margin: 0 auto;
 	}
 
+	.partner_a a {
+		color: black;
+	}
+
 	#sponsors-sml { background-image: url('/pictures/logos/sponsors/sml.png'); 	}
     #sponsors-speednet { background-image: url('/pictures/logos/sponsors/speednet.png'); 	}
     #sponsors-desmart { background-image: url('/pictures/logos/sponsors/desmart.png'); 	}
 	#sponsors-nortpoint { background-image: url('/pictures/logos/sponsors/nortpoint.png'); 	}
+	#sponsors-insanelab { background-image: url('/pictures/logos/sponsors/insanelab.png'); 	}
 
 	.logo {
 		background-repeat: no-repeat;
