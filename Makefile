@@ -1,4 +1,4 @@
 .PHONY: all
 
 all:
-   jekyll build
+	jekyll build
