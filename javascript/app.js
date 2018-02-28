@@ -1,57 +1,27 @@
-document.getElementById("gdynia-map").style.display = "none";
-document.getElementById("warszawa-map").style.display = "none";
-document.getElementById("krakow-map").style.display = "none";
-document.getElementById("katowice-map").style.display = "none";
-document.getElementById("poznan-map").style.display = "block";
+var cities = ["gdynia", "warszawa", "krakow", "katowice", "poznan", "lublin"];
 
-var gdynia=document.getElementById("gdynia");
-var warszawa=document.getElementById("warszawa");
-var poznan=document.getElementById("poznan");
-var krakow=document.getElementById("krakow");
-var katowice=document.getElementById("katowice");
-
-function showGdynia() {
-	document.getElementById("katowice-map").style.display = "none";
-	document.getElementById("gdynia-map").style.display = "block";
-	document.getElementById("warszawa-map").style.display = "none";
-	document.getElementById("poznan-map").style.display = "none";
-	document.getElementById("krakow-map").style.display = "none";
+function hide_all() {
+	cities
+		.map(function(element) {
+			return element + "-map";
+		})
+		.forEach(function(id) {
+			document.getElementById(id).style.display = "none";
+		});
 }
 
-function showWarszawa() {
-	document.getElementById("katowice-map").style.display = "none";
-	document.getElementById("warszawa-map").style.display = "block";
-	document.getElementById("gdynia-map").style.display = "none";
-	document.getElementById("poznan-map").style.display = "none";
-	document.getElementById("krakow-map").style.display = "none";
+function ShowCityFactory(city) {
+	return function() {
+		hide_all();
+		document.getElementById(city + "-map").style.display = "block";
+	};
 }
 
-function showPoznan() {
-	document.getElementById("katowice-map").style.display = "none";
-	document.getElementById("poznan-map").style.display = "block";
-	document.getElementById("gdynia-map").style.display = "none";
-	document.getElementById("warszawa-map").style.display = "none";
-	document.getElementById("krakow-map").style.display = "none";
-}
+// elementy o id np. "gdynia" dostają własną zmieną, nie trzeba robić selektorów
 
-function showKrakow() {
-	document.getElementById("katowice-map").style.display = "none";
-	document.getElementById("krakow-map").style.display = "block";
-	document.getElementById("poznan-map").style.display = "none";
-	document.getElementById("gdynia-map").style.display = "none";
-	document.getElementById("warszawa-map").style.display = "none";
-}
+cities.forEach(function(city) {
+	window[city].onclick = ShowCityFactory(city);
+});
 
-function showKatowice() {
-	document.getElementById("katowice-map").style.display = "block";
-	document.getElementById("krakow-map").style.display = "none";
-	document.getElementById("poznan-map").style.display = "none";
-	document.getElementById("gdynia-map").style.display = "none";
-	document.getElementById("warszawa-map").style.display = "none";
-}
-
-gdynia.onclick = showGdynia;
-warszawa.onclick = showWarszawa;
-poznan.onclick = showPoznan;
-krakow.onclick = showKrakow;
-katowice.onclick = showKatowice;
+hide_all();
+ShowCityFactory("poznan")();
