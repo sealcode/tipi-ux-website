@@ -528,6 +528,7 @@
     #sponsors-desmart { background-image: url('/pictures/logos/sponsors/desmart.png'); 	}
 	#sponsors-nortpoint { background-image: url('/pictures/logos/sponsors/nortpoint.png'); 	}
 	#sponsors-insanelab { background-image: url('/pictures/logos/sponsors/insanelab.png'); 	}
+	#sponsors-grupa_pracuj { background-image: url('/pictures/logos/partners/grupa_pracuj.png'); }
 
 	.logo {
 		background-repeat: no-repeat;
@@ -538,6 +539,7 @@
 	#partners-dailyweb { background-image: url('/pictures/logos/partners/dailyweb.png'); } 
 	#partners-sealcode { background-image: url('/pictures/logos/partners/sealcode.png'); }
 	#partners-ppnt { background-image: url('/pictures/logos/partners/ppnt.png'); }
+	#partners-grupa_pracuj { background-image: url('/pictures/logos/partners/grupa_pracuj.png'); }
 	#partners-mce { background-image: url('/pictures/logos/partners/mce.png'); }
     #partners-strefastartup { background-image: url('/pictures/logos/partners/strefastartup.png'); }
     #partners-uxswps { background-image: url('/pictures/logos/partners/uxswps.png'); }
