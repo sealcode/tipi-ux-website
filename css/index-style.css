@@ -529,7 +529,8 @@
 	#sponsors-nortpoint { background-image: url('/pictures/logos/sponsors/nortpoint.png'); 	}
 	#sponsors-insanelab { background-image: url('/pictures/logos/sponsors/insanelab.png'); 	}
 	#sponsors-grupa_pracuj { background-image: url('/pictures/logos/partners/grupa_pracuj.png'); }
-
+	#sponsors-codersLab { background-image: url('/pictures/logos/sponsors/codersLab.png'); }
+	
 	.logo {
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
